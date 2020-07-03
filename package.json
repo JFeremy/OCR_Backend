@@ -1,0 +1,16 @@
+{
+  "name": "OCR_Backend",
+  "version": "1.0.0",
+  "description": "Formation OCR",
+  "main": "index.js",
+  "repository": "https://github.com/JFeremy/OCR_Backend.git",
+  "author": "JFeremy",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/cli": "^9.1.1"
+  },
+  "scripts": {
+    "start:front": "cd frontend && ng serve",
+    "start:back": "cd backend && nodemon"
+  }
+}
