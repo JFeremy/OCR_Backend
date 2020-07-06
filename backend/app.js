@@ -7,9 +7,10 @@ const stuffRoutes = require('./routes/stuff')
 const userRoutes = require('./routes/user')
 
 const app = express()
+// UPDATE PASSWORD FOR TESTING
 mongoose
   .connect(
-    'mongodb+srv://admin_usr:qxBXXnoGEqD6Dl1M@opcdb-y4bsf.mongodb.net/test?retryWrites=true&w=majority',
+    'mongodb+srv://admin_usr:password.mongodb.net/test?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
